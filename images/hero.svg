@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0E2F4F"/>
+      <stop offset=".55" stop-color="#1F4F6E"/>
+      <stop offset="1" stop-color="#2A6E7E"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3A6680" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0A1828" stop-opacity=".6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <!-- ceiling beams -->
+  <g stroke="rgba(255,255,255,.08)" stroke-width="2">
+    <line x1="0" y1="120" x2="1600" y2="120"/>
+    <line x1="0" y1="180" x2="1600" y2="180"/>
+    <line x1="0" y1="240" x2="1600" y2="240"/>
+    <line x1="800" y1="0" x2="800" y2="240"/>
+    <line x1="400" y1="0" x2="400" y2="240"/>
+    <line x1="1200" y1="0" x2="1200" y2="240"/>
+  </g>
+  <!-- worker silhouette -->
+  <g transform="translate(900 250)" fill="#0A1828">
+    <!-- helmet -->
+    <path d="M180 60 Q180 0 240 0 Q300 0 300 60 L300 90 L180 90 Z" fill="#D4D8DB"/>
+    <rect x="180" y="86" width="120" height="14" fill="#1A2A38"/>
+    <!-- head -->
+    <ellipse cx="240" cy="120" rx="42" ry="48" fill="#E8B98C"/>
+    <!-- body -->
+    <path d="M140 180 Q240 160 340 180 L380 480 L100 480 Z" fill="#1F2A37"/>
+    <!-- harness straps -->
+    <path d="M180 180 L210 480" stroke="#0E2F4F" stroke-width="8" fill="none"/>
+    <path d="M300 180 L270 480" stroke="#0E2F4F" stroke-width="8" fill="none"/>
+    <!-- arms -->
+    <path d="M140 200 L80 360 L110 380 L170 240 Z" fill="#1F2A37"/>
+    <path d="M340 200 L400 360 L370 380 L310 240 Z" fill="#1F2A37"/>
+  </g>
+  <rect y="600" width="1600" height="300" fill="url(#floor)"/>
+  <text x="50%" y="850" text-anchor="middle" fill="rgba(255,255,255,.3)" font-family="Montserrat, sans-serif" font-size="14" letter-spacing="6">HERO PLACEHOLDER — see images/IMAGE_PROMPTS.md</text>
+</svg>
