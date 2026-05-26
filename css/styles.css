@@ -479,8 +479,7 @@ button{background:none;border:0;font:inherit;color:inherit;cursor:pointer;}
   font-size:11.5px;letter-spacing:.1em;
   padding:3px 0;width:88px;border-radius:2px;
 }
-.news-list a{color:var(--text);transition:.25s;}
-.news-list a:hover{color:var(--teal);}
+.news-list .news-title{color:var(--text);}
 
 /* ======== CONTACT ======== */
 .contact{
