@@ -412,9 +412,9 @@ button{background:none;border:0;font:inherit;color:inherit;cursor:pointer;}
           mask-image:linear-gradient(90deg,transparent 0,#000 6%,#000 94%,transparent 100%);
 }
 .marquee-track{
-  display:flex;gap:20px;
+  display:flex;
   width:max-content;
-  animation:marquee-rtl 40s linear infinite;
+  animation:marquee-rtl 60s linear infinite;
   will-change:transform;
 }
 .works-marquee:hover .marquee-track{
@@ -423,6 +423,7 @@ button{background:none;border:0;font:inherit;color:inherit;cursor:pointer;}
 .work-item{
   flex:0 0 280px;
   min-width:0;
+  margin-right:20px;
 }
 @keyframes marquee-rtl{
   from{transform:translateX(0);}
@@ -608,8 +609,8 @@ button{background:none;border:0;font:inherit;color:inherit;cursor:pointer;}
   .service-grid{grid-template-columns:1fr;gap:22px;}
 
   .works{padding:70px 0;}
-  .work-item{flex:0 0 220px;}
-  .marquee-track{animation-duration:30s;}
+  .work-item{flex:0 0 220px;margin-right:16px;}
+  .marquee-track{animation-duration:50s;}
 
   .news{padding:70px 0;}
   .news-list li{
@@ -666,7 +667,8 @@ button{background:none;border:0;font:inherit;color:inherit;cursor:pointer;}
   .service-card-title{font-size:16px;}
 
   .works{padding:56px 0 64px;}
-  .work-item{flex:0 0 200px;}
+  .work-item{flex:0 0 200px;margin-right:14px;}
+  .marquee-track{animation-duration:45s;}
   .work-title{font-size:14px;}
 
   .news{padding:56px 0 64px;}
@@ -697,7 +699,8 @@ button{background:none;border:0;font:inherit;color:inherit;cursor:pointer;}
   .hero-title{font-size:18px;}
   .section-title-jp{font-size:20px;}
   .tel-num{font-size:22px;}
-  .work-item{flex:0 0 180px;}
+  .work-item{flex:0 0 180px;margin-right:12px;}
+  .marquee-track{animation-duration:40s;}
 }
 
 /* ============================================================
