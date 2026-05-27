@@ -1,4 +1,4 @@
-/* SANSEI PRECISION - interactions */
+/* AIBOTEC PRECISION - interactions */
 
 (function(){
   // ===== Header shadow on scroll =====
