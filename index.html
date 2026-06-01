@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Cormorant+Garamond:ital,wght@1,400;1,500&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
+<link rel="preload" as="image" href="images/hero.jpg" fetchpriority="high">
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" defer></script>
 </head>
 <body>
@@ -50,7 +51,7 @@
 <section class="hero" id="top">
   <div class="hero-tile"></div>
   <div class="hero-photo">
-    <img src="images/hero.png" alt="精密加工現場で品質を確認する技術者">
+    <img src="images/hero.jpg" fetchpriority="high" decoding="async" alt="精密加工現場で品質を確認する技術者">
   </div>
   <div class="hero-text">
     <div class="hero-logo-block">
@@ -89,7 +90,7 @@
       <span class="shape shape-ring" aria-hidden="true"></span>
       <span class="shape shape-dots" aria-hidden="true"></span>
       <span class="shape shape-square" aria-hidden="true"></span>
-      <img src="images/about.png" alt="工場で精密部品を製作する技術者">
+      <img src="images/about.jpg" loading="lazy" decoding="async" alt="工場で精密部品を製作する技術者">
       <span class="about-accent"></span>
     </div>
   </div>
@@ -107,7 +108,7 @@
     <div class="service-grid">
       <article class="service-card">
         <div class="service-card-photo">
-          <img src="images/service-1.png" alt="精密部品加工">
+          <img src="images/service-1.jpg" loading="lazy" decoding="async" alt="精密部品加工">
         </div>
         <div class="service-card-body">
           <h3 class="service-card-title">精密部品加工</h3>
@@ -117,7 +118,7 @@
 
       <article class="service-card">
         <div class="service-card-photo">
-          <img src="images/service-2.png" alt="金型製造">
+          <img src="images/service-2.jpg" loading="lazy" decoding="async" alt="金型製造">
         </div>
         <div class="service-card-body">
           <h3 class="service-card-title">金型製造事業</h3>
@@ -127,7 +128,7 @@
 
       <article class="service-card">
         <div class="service-card-photo">
-          <img src="images/service-3.png" alt="産業機器組立">
+          <img src="images/service-3.jpg" loading="lazy" decoding="async" alt="産業機器組立">
         </div>
         <div class="service-card-body">
           <h3 class="service-card-title">産業機器組立</h3>
@@ -148,37 +149,37 @@
   <div class="works-marquee" id="worksMarquee">
     <ul class="marquee-track" id="marqueeTrack">
       <li class="work-item">
-        <div class="work-photo"><img src="images/work-1.png" alt=""></div>
+        <div class="work-photo"><img src="images/work-1.jpg" loading="lazy" decoding="async" alt=""></div>
         <h4 class="work-title">アルミ精密筐体加工</h4>
         <p class="work-place">三重工場/A2017</p>
         <span class="work-tag">精密部品加工</span>
       </li>
       <li class="work-item">
-        <div class="work-photo"><img src="images/work-2.png" alt=""></div>
+        <div class="work-photo"><img src="images/work-2.jpg" loading="lazy" decoding="async" alt=""></div>
         <h4 class="work-title">医療機器用金型製造</h4>
         <p class="work-place">本社工場/SUS316</p>
         <span class="work-tag">金型製造</span>
       </li>
       <li class="work-item">
-        <div class="work-photo"><img src="images/work-3.png" alt=""></div>
+        <div class="work-photo"><img src="images/work-3.jpg" loading="lazy" decoding="async" alt=""></div>
         <h4 class="work-title">搬送装置ユニット組立</h4>
         <p class="work-place">第二工場/組立工程</p>
         <span class="work-tag">産業機器組立</span>
       </li>
       <li class="work-item">
-        <div class="work-photo"><img src="images/work-4.png" alt=""></div>
+        <div class="work-photo"><img src="images/work-4.jpg" loading="lazy" decoding="async" alt=""></div>
         <h4 class="work-title">半導体製造装置部品</h4>
         <p class="work-place">三重工場/SUS304</p>
         <span class="work-tag">精密部品加工</span>
       </li>
       <li class="work-item">
-        <div class="work-photo"><img src="images/work-5.png" alt=""></div>
+        <div class="work-photo"><img src="images/work-5.jpg" loading="lazy" decoding="async" alt=""></div>
         <h4 class="work-title">自動車部品プレス金型</h4>
         <p class="work-place">本社工場/SKD11</p>
         <span class="work-tag">金型製造</span>
       </li>
       <li class="work-item">
-        <div class="work-photo"><img src="images/work-6.png" alt=""></div>
+        <div class="work-photo"><img src="images/work-6.jpg" loading="lazy" decoding="async" alt=""></div>
         <h4 class="work-title">産業ロボット架台組立</h4>
         <p class="work-place">第二工場/組立工程</p>
         <span class="work-tag">産業機器組立</span>

@@ -492,7 +492,7 @@ button{background:none;border:0;font:inherit;color:inherit;cursor:pointer;}
 }
 .contact-bg-photo{
   position:absolute;inset:0;
-  background:url('../images/contact-bg.png') center/cover no-repeat;
+  background:url('../images/contact-bg.jpg') center/cover no-repeat;
   z-index:0;
 }
 .contact-overlay{
